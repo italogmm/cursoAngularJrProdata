@@ -25,26 +25,31 @@
     <script src="node_modules/angular-ui-router/release/angular-ui-router.js"></script>
 
     <script src="app/config/pd-app.module.js"></script>
-    <script src="app/controller/index.controller.js"></script>
+    <script src="app/controller/index8.controller.js"></script>
     <script src="app/services/pd-alert.service.js"></script>
     <script src="app/filter/pd-maiusculo.filter.js"></script>
     <script src="app/config/pd-rotas.config.js"></script>
 </head>
 
-<body ng-app="pdCurso" class="container" md-theme="blue">
+    <body ng-app="pdCurso" class="container" md-theme="blue">
+        <div ng-controller="Index8Controller">
 
-<div>
-    <a ui-sref="cadastroCarro">Cadastro de carro</a>
-    <a ui-sref="pesquisaCarro">Pesquisa de carro</a>
-</div>
+            <div>
+                <a ui-sref="cadastroCarro">Cadastro de carro</a>
+                <a ui-sref="pesquisaCarro">Pesquisa de carro</a>
+            </div>
 
-<div>
-    <div ui-view></div>
-</div>
+            <div>
+                <md-button class="md-raised md-primary" ng-click="alterarRota('cadastroCarro')">Cadastro de carro</md-button>
+                <md-button class="md-raised md-primary" ng-click="alterarRota('pesquisaCarro')">Pesquisa de carro</md-button>
+            </div>
 
-<div>
-</div>
+            <div>
+                <div ui-view></div>
+            </div>
 
-
-
+            <div>
+            </div>
+        </div>
+    </body>
 </html>

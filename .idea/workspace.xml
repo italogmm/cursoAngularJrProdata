@@ -2,25 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff2a9f93-4006-4c39-8402-d2a6dd35a383" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/config/pd-rotas.config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controller/index4.controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controller/index6.controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/filter/pd-maiusculo.filter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/cell-template-date.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/cell-template-excluir.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/row-template.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/carro/cadastro-carro.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/carro/pesquisa-carro.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index-4-watch.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index-5-ui-grid.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index-6-event.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index-7-angular-material.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index-8-rotas.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controller/index8.controller.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/pd-app.module.js" afterPath="$PROJECT_DIR$/app/config/pd-app.module.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controller/index.controller.js" afterPath="$PROJECT_DIR$/app/controller/index.controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index-2-bootstrap.html" afterPath="$PROJECT_DIR$/index-2-bootstrap.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index-8-rotas.html" afterPath="$PROJECT_DIR$/index-8-rotas.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -44,8 +28,8 @@
       <file leaf-file-name="index-7-angular-material.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index-7-angular-material.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="21" column="67" lean-forward="true" selection-start-line="21" selection-start-column="67" selection-end-line="23" selection-end-column="73" />
+            <state relative-caret-position="164">
+              <caret line="86" column="51" lean-forward="false" selection-start-line="86" selection-start-column="12" selection-end-line="86" selection-end-column="51" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#md-button#1;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -57,8 +41,8 @@
       <file leaf-file-name="index-5-ui-grid.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index-5-ui-grid.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="270">
+              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="37" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -66,11 +50,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index-8-rotas.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index-8-rotas.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index-8-rotas.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="269">
+              <caret line="47" column="35" lean-forward="true" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index8.controller.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controller/index8.controller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -96,11 +90,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pd-rotas.config.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pd-rotas.config.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/config/pd-rotas.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="33" lean-forward="true" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+            <state relative-caret-position="240">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -150,10 +144,11 @@
         <option value="$PROJECT_DIR$/app/views/carro/cadastro-carro.html" />
         <option value="$PROJECT_DIR$/app/views/carro/pesquisa-carro.html" />
         <option value="$PROJECT_DIR$/app/config/pd-rotas.config.js" />
-        <option value="$PROJECT_DIR$/index-8-rotas.html" />
         <option value="$PROJECT_DIR$/index-7-angular-material.html" />
         <option value="$PROJECT_DIR$/index-5-ui-grid.html" />
         <option value="$PROJECT_DIR$/app/config/pd-app.module.js" />
+        <option value="$PROJECT_DIR$/index-8-rotas.html" />
+        <option value="$PROJECT_DIR$/app/controller/index8.controller.js" />
       </list>
     </option>
   </component>
@@ -209,82 +204,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helloworld" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helloworld" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-ui-router" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helloworld" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helloworld" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-ui-router" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helloworld" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helloworld" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-ui-router" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="release" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helloworld" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helloworld" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -327,8 +246,8 @@
       <recent name="$PROJECT_DIR$/app/views/carro" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/app/controller" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/node_modules" />
     </key>
   </component>
@@ -436,12 +355,12 @@
       <updated>1484996963156</updated>
       <workItem from="1484996965382" duration="21123000" />
       <workItem from="1485395859359" duration="4000" />
-      <workItem from="1485598792023" duration="22687000" />
+      <workItem from="1485598792023" duration="23343000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43814000" />
+    <option name="totallyTimeSpent" value="44470000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -463,9 +382,9 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24817519" sideWeight="0.49721116" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24817519" sideWeight="0.49721116" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30656934" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30656934" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -780,31 +699,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/pd-rotas.config.js">
+    <entry file="file://$PROJECT_DIR$/index-5-ui-grid.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="33" lean-forward="true" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-          <folding />
+        <state relative-caret-position="270">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="37" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index-7-angular-material.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="21" column="67" lean-forward="true" selection-start-line="21" selection-start-column="67" selection-end-line="23" selection-end-column="73" />
+        <state relative-caret-position="164">
+          <caret line="86" column="51" lean-forward="false" selection-start-line="86" selection-start-column="12" selection-end-line="86" selection-end-column="51" />
           <folding>
             <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#md-button#1;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index-5-ui-grid.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -817,10 +728,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/index8.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index-8-rotas.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="269">
+          <caret line="47" column="35" lean-forward="true" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/pd-rotas.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
