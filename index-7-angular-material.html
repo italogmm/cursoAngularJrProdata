@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Curso</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="node_modules/angular-toastr/dist/angular-toastr.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="node_modules/angular-ui-grid/ui-grid.css">
+    <link rel="stylesheet" href="node_modules/angular-material/angular-material.css">
+
+    <!-- Imports externos -->
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/angular/angular.js"></script>
+    <script src="node_modules/angular-messages/angular-messages.js"></script>
+    <script src="node_modules/angular-animate/angular-animate.js"></script>
+    <script src="node_modules/angular-toastr/dist/angular-toastr.tpls.js"></script>
+    <script src="node_modules/angular-ui-grid/ui-grid.js"></script>
+    <script src="node_modules/angular-material/angular-material.js"></script>
+    <script src="node_modules/angular-aria/angular-aria.min.js"></script>
+    <script src="node_modules/angular-ui-router/release/angular-ui-router.js"></script>
+
+    <script src="app/config/pd-app.module.js"></script>
+    <script src="app/controller/index.controller.js"></script>
+    <script src="app/services/pd-alert.service.js"></script>
+    <script src="app/filter/pd-maiusculo.filter.js"></script>
+</head>
+
+<body ng-app="pdCurso" class="container" md-theme="blue">
+
+<div ng-controller="IndexController">
+
+    <form name="formPessoa" novalidate>
+
+    <div class="panel panel-primary" style="width: 95%;">
+        <!-- div class="panel panel-heading">
+            <span>Cadastro</span>
+        </div>
+         -->
+        <md-toolbar>
+            <div class="md-toolbar-tools">
+                <h2>
+                    <span>Cadastro</span>
+                </h2>
+            </div>
+        </md-toolbar>
+
+        <div class="panel-body">
+            <md-card-content>
+                <div layout="row">
+                    <md-input-container class="md-block" flex-gt-sm>
+                        <label>Nome</label>
+                        <input ng-model="entidade.nome" g-maxlength="10" ng-minlength="2" name="nome"
+                               id="itNome" ng-required="true" autofocus>
+                    </md-input-container>
+                    <md-input-container class="md-block" flex-gt-sm>
+                        <label>Sobrenome</label>
+                        <input ng-model="entidade.sobrenome" g-maxlength="10" ng-minlength="2" name="sobrenome"
+                               id="itSobrenome" ng-required="true" autofocus>
+                    </md-input-container>
+                    <md-input-container class="md-block" flex-gt-sm>
+                        <label>Sexo</label>
+                        <md-select ng-model="entidade.sexo" name="sexo">
+                            <md-option value="M">Masculino</md-option>
+                            <md-option value="F">Feminino</md-option>
+                        </md-select>
+                    </md-input-container>
+                    <md-input-container class="md-block" flex-gt-sm>
+                        <label>Data de nascimento</label>
+                        <md-datepicker ng-model="entidade.nascimento" name="nascimento" md-placeholder="Informe a data"></md-datepicker>
+                    </md-input-container>
+                </div>
+                <div layout="row">
+                    <md-input-container class="md-block" flex-gt-sm>
+                        <label>Cor</label>
+                        <input ng-model="entidade.cor" g-maxlength="10" ng-minlength="2" name="cor"
+                               id="itCor" ng-required="true" autofocus>
+                    </md-input-container>
+                </div>
+            </md-card-content>
+
+        <div class="panel-footer">
+            <md-button class="md-raised md-primary" ng-click="salvar()">Salvar</md-button>
+            <md-button class="md-raised md-primary" ng-click="limpar()" style="background-color: #f0ad4e;">Limpar</md-button>
+            <md-button class="md-raised md-warn">Excluir</md-button>
+        </div>
+    </div>
+
+    <div ui-grid="gridOptions" ui-grid-selection>
+    </div>
+
+    </form>
+ </div>
+
+ </body>
+ </html>
